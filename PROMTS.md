@@ -1,0 +1,2 @@
+<!-- This is Prompt -->
+I have created a tech conference event landing page with HTML and CSS and added a navigation bar, hero section, speaker section, and pricing section. Now I want to add a section that is related to the tech conference event. Tell me what can be in this section and what are they, and give me some professional guidelines to create it using HTML and CSS.
