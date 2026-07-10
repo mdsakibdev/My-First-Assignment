@@ -315,7 +315,7 @@ hr{
 .why-attend{
 
     padding:120px 8%;
-    background:#0b1120;
+    background:#ffffff;
 
 }
 
@@ -331,11 +331,10 @@ hr{
 .sub-title{
 
     display:inline-block;
-    color:#7c3aed;
-    background:rgba(124,58,237,.15);
-    padding:10px 22px;
+    color: #111827;
+    padding:0px 22px;
     border-radius:50px;
-    font-size:18px;
+    font-size:20px;
     letter-spacing:2px;
     font-weight:600;
 
@@ -343,7 +342,7 @@ hr{
 
 .section-header h2{
 
-    color:#fff;
+    color: #0D1B2A;
     font-size:48px;
     margin:25px 0;
 
@@ -351,7 +350,7 @@ hr{
 
 .section-header p{
 
-    color:#94a3b8;
+    color: #4e4949;
     line-height:1.8;
 
 }
@@ -428,4 +427,67 @@ hr{
     line-height:1.8;
     text-align: center;
 
+}
+
+
+
+
+/*  Footer Section Style */
+
+.footer{
+    background:#0b1120;
+    padding:60px 0 25px;
+}
+
+.footer-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.footer-logo img{
+    width:120px;
+    display:block;
+}
+
+.social-links{
+    display:flex;
+    gap:15px;
+}
+
+.social-links a{
+    width:48px;
+    height:48px;
+    border-radius:50%;
+    border:1px solid rgba(255,255,255,.12);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#ffffff;
+    font-size:18px;
+    text-decoration:none;
+}
+
+.social-links a:hover{
+    background: #f4b942;
+    border-color:transparent;
+}
+
+.footer hr{
+    border:none;
+    height:1px;
+    background:rgba(255,255,255,.12);
+    margin:35px 0 25px;
+}
+
+.footer-bottom{
+    text-align:center;
+}
+
+.footer-bottom p{
+    color:#94a3b8;
+    font-size:15px;
+    letter-spacing:.3px;
 }
