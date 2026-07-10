@@ -10,14 +10,6 @@ body{
     font-family: "Inter", sans-serif;
 }
 
-ul li{
-    list-style: none;
-}
-
-a{
-    text-decoration: none;
-    color: #292929;
-}
 
 .container{
     width: 90%;
@@ -40,6 +32,15 @@ a{
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+
+.nav-list li{
+    list-style: none;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: #292929;
 }
 
 
@@ -130,7 +131,7 @@ a{
     height: auto;
     border-radius: 12px;
     overflow: hidden;
-    border: 1px solid #E5E7EB;
+    border: 1px solid #d2d4d8;
     
 }
 
@@ -165,3 +166,144 @@ a{
 }
 
 
+
+
+
+/* Secure Section Style */
+.Secure-section .container{
+    text-align: center;
+    padding: 0 60px 80px;
+}
+
+.Secure-section .container h2{
+    font-weight: bold;
+    font-size: 40px;
+    color: #0D1B2A;
+    margin-bottom: 10px;
+}
+
+.Secure-section .container p{
+    font-size: 16px;
+    color: #313131;
+}
+
+.Spot-cards-div{
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 40px 0;
+}
+
+
+.card{
+    padding: 30px;
+    border: 1px solid #d2d4d8;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.plan-name{
+    font-size:15px;
+    font-weight:700;
+    color: #5e5e5e;
+    letter-spacing:.8px;
+    text-transform: uppercase;
+}
+
+.price{
+    margin-top:12px;
+    margin-bottom:26px;
+}
+
+.price h2{
+    font-size:64px;
+    line-height:1;
+    color: #0D1B2A;
+    font-weight:800;
+}
+
+.price p{
+    color:#8d8d8d;
+    font-size:20px;
+}
+
+hr{
+    border:none;
+    border-top:1px solid #e6e6e6;
+    margin-bottom:28px;
+}
+
+
+.features{
+    list-style:none;
+}
+
+.features li{
+    display:flex;
+    align-items:flex-start;
+    gap:14px;
+    margin-bottom:5px;
+    color:#302e2e;
+    font-size:14px;
+    line-height:1.6;
+}
+
+.features i{
+    color:#2962ff;
+    font-size:6px;
+    margin-top:8px;
+}
+
+.btn{
+    width:100%;
+    margin-top:15px;
+    padding:12px;
+    border-radius:8px;
+    border:1px solid #2962ff;
+    background:white;
+    color:#2962ff;
+    font-size:15px;
+    font-weight:600;
+    cursor:pointer;
+}
+
+
+.card-tow{
+    background-color: #0D1B2A;
+}
+
+.card-tow .plan-name{
+    color: #93C5FD;
+}
+
+.card-tow .price h2{
+    color: #fff;
+}
+
+.card-tow .price p{
+    color: #aca8a8;
+}
+
+.card-tow hr{
+    border-top:1px solid #4e4949;
+}
+
+.card-tow .features li{
+    color: #a8a3a3;
+}
+
+.card-tow .btn{
+    background-color: #2962ff;
+    color: #ffffff;
+}
+
+.card-tow .features i{
+    color: #60A5FA;
+}
+
+
+
+.card-three .btn{
+    border:1px solid #0D1B2A;
+    color: #0D1B2A;
+}
