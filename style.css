@@ -307,3 +307,125 @@ hr{
     border:1px solid #0D1B2A;
     color: #0D1B2A;
 }
+
+
+
+/*    WHY ATTEND    */
+
+.why-attend{
+
+    padding:120px 8%;
+    background:#0b1120;
+
+}
+
+.section-header{
+
+    text-align:center;
+    max-width:700px;
+    margin:auto;
+    margin-bottom:70px;
+
+}
+
+.sub-title{
+
+    display:inline-block;
+    color:#7c3aed;
+    background:rgba(124,58,237,.15);
+    padding:10px 22px;
+    border-radius:50px;
+    font-size:18px;
+    letter-spacing:2px;
+    font-weight:600;
+
+}
+
+.section-header h2{
+
+    color:#fff;
+    font-size:48px;
+    margin:25px 0;
+
+}
+
+.section-header p{
+
+    color:#94a3b8;
+    line-height:1.8;
+
+}
+
+.attend-grid{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+
+}
+
+.attend-card{
+
+    background:#111827;
+    padding:40px 35px;
+    border-radius:22px;
+    border:1px solid rgba(255,255,255,.08);
+    /* transition:.4s; */
+    position:relative;
+    overflow:hidden;
+    cursor: pointer;
+
+}
+
+/* .attend-card::before{
+
+    content:"";
+    position:absolute;
+    width:180px;
+    height:180px;
+    background:#7c3aed;
+    filter:blur(100px);
+    top:-90px;
+    right:-90px;
+    opacity:.15;
+
+} */
+
+/* .attend-card:hover{
+
+    transform:translateY(-12px);
+    border-color:#7c3aed;
+
+} */
+
+.icon{
+
+    width:70px;
+    height:70px;
+    /* background:linear-gradient(135deg,#7c3aed,#3b82f6); */
+    border-radius:18px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:34px;
+    margin: 0 auto 25px;
+    color: white;
+
+}
+
+.attend-card h3{
+
+    color:#fff;
+    margin-bottom:15px;
+    font-size:24px;
+    text-align: center;
+
+}
+
+.attend-card p{
+
+    color:#94a3b8;
+    line-height:1.8;
+    text-align: center;
+
+}
